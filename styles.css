@@ -1,1 +1,49 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.qrContainer {
+  background: hsl(212deg, 45%, 89%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: 100vh;
+}
+
+.qrContainer--card {
+  max-width: 300px;
+  height: 500px;
+  background: hsl(0deg, 0%, 100%);
+  place-self: center;
+  border-radius: 20px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.qrContainer--card h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+.qrContainer--card p {
+  font-size: 17px;
+  color: hsl(220deg, 15%, 55%);
+  font-weight: 400;
+  text-align: center;
+  line-height: 20px;
+  margin: 0;
+}
+
+.qrContainer--cardImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qrContainer--cardImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}/*# sourceMappingURL=styles.css.map */
